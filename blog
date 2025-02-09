@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSRP Number Plate</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; /* White background */
+            color: #333; /* Dark text for contrast */
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff; /* Blue button */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .cta-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;  /* Prevents image from creating extra space */
+            margin: 20px auto; /* Centers the image */
+        }
+
+       /* Responsive design adjustments*/
+       @media (max-width: 768px) {
+           .container {
+               padding: 10px;
+           }
+           h1 {
+               font-size: 1.5em;
+           }
+           .cta-button {
+               width: 100%; /* Button takes full width on smaller screens */
+           }
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HSRP Number Plate</h1>
+
+        <img src="hsrp_image.jpg" alt="HSRP Number Plate Example">  <p>Looking for a High-Security Registration Plate (HSRP)? We make it easy!  HSRP number plates are mandatory for all vehicles in India, ensuring enhanced security and preventing counterfeiting.  They come with unique features like a chromium hologram, laser-etched identification number, and a tamper-proof snap lock.</p>
+
+        <p>Benefits of HSRP:</p>
+        <ul>
+            <li>Enhanced Security</li>
+            <li>Prevents Counterfeiting</li>
+            <li>Uniformity Across the Country</li>
+            <li>Easy Identification</li>
+        </ul>
+
+        <p>We offer quick and hassle-free HSRP number plate installation.  Get yours today!</p>
+
+        <a href="your-order-page.html" class="cta-button">Order Now</a>  <p>Have questions? Contact us at: <a href="mailto:your-email@example.com">your-email@example.com</a> or call us at: <a href="tel:your-phone-number">your-phone-number</a></p>
+
+
+    </div>
+</body>
+</html>
